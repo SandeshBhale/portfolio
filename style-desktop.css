@@ -1,0 +1,114 @@
+/* added font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --shade1: #352F44;
+    --shade2: #5C5470;
+    --shade3: #B9B4C7;
+    --shade4: #FAF0E6;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    width: 100%;
+    padding: 0 8%;
+    background-color: var(--shade1);
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+}
+
+header{
+    width: 100%;
+    height: 15%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-div{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 0.7vw;
+}
+
+.logo{
+    width: 2.5vw;
+    aspect-ratio: 1;
+    background: var(--shade4);
+    background-image: url(imgs/logo.png);
+    background-size: 90%;
+    background-position: center;
+    border-radius: 100%;
+}
+
+.logo-div p{
+    font-size: 1vw;
+    font-weight: 600;
+    color: var(--shade4);
+}
+
+nav{
+    /* background-color: orange; */
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    gap: 1.5vw;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0.2vw 1vw;
+    border-radius: 100px;
+    text-decoration: none;
+    transition: all 0.7s ease;
+}
+
+nav ul li:hover{
+    background-color: var(--shade2);
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1vw;
+    transition: all 0.7s ease;
+    font-weight: 400;
+    color: var(--shade4);
+    letter-spacing: 1px;
+}
+
+.social-div{
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+}
+
+.social-div a{
+    text-decoration: none;
+    font-size: 1.7vw;
+    color: var(--shade3);
+}
+
+.social-div a:hover{
+    color: var(--shade4);
+}
