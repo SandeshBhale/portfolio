@@ -112,3 +112,61 @@ nav ul li a{
 .social-div a:hover{
     color: var(--shade4);
 }
+
+/* ================================ Content Main  ======================================= */
+
+.content-main{
+    width: 100%;
+    height: 75%;
+    /* background-color: red; */
+    border-bottom: 0.1vw solid var(--shade4);
+    display: flex;
+}
+
+.content-left{
+    /* background-color: blue; */
+    width: 50%;
+    height: 100%;
+}
+
+.content-right{
+    /* background-color: yellow; */
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-bitmoji{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+}
+
+.bubble{
+    background-color: var(--shade4);
+    aspect-ratio: 1;
+    border-radius: 100%;
+    position: absolute;
+    z-index: 1;
+}
+
+.b1{
+    width: 75%;
+    right: 0;
+    bottom: 0;
+}
+
+.b2{
+    width: 35%;
+    left: 4vw;
+    bottom: -10vh;
+}
+
+.b3{
+    right: 2vh;
+    top: 4vh;
+    width: 20%;
+}
+
