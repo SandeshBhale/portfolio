@@ -138,7 +138,7 @@ nav ul li a{
 }
 
 .main-bitmoji{
-    width: 90%;
+    width: 70vh;
     position: absolute;
     bottom: 0;
     z-index: 2;
@@ -169,4 +169,17 @@ nav ul li a{
     top: 4vh;
     width: 20%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
