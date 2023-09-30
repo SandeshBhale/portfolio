@@ -125,8 +125,36 @@ nav ul li a{
 
 .content-left{
     /* background-color: blue; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
     width: 50%;
     height: 100%;
+}
+
+.line1{
+    color: var(--shade3);
+    font-weight: 500;
+    font-size: 3vh;
+}
+
+.line2{
+    color: var(--shade4);
+    font-weight: 700;
+    font-size: 5vh;
+}
+
+h1{
+    color: var(--shade3);
+}
+
+.multiText{
+    color: red;
+}
+
+.bio{
+    padding-bottom: 2vh;
+    color: var(--shade3);
 }
 
 .content-right{
@@ -165,7 +193,16 @@ nav ul li a{
 }
 
 .b3{
-    right: 2vh;
-    top: 4vh;
+    right: 2vw;
+    top: 4vw;
     width: 20%;
+}
+
+footer{
+    padding-top: 1.5vh;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    color: var(--shade4);   
 }
