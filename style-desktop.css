@@ -198,6 +198,79 @@ h1{
     width: 20%;
 }
 
+/* ==================================PROJECTS section ================================== */
+
+.project-head{
+    align-items: center;
+    font-size: 3vw;
+    width: 100%;
+    letter-spacing: 0.1vw;
+    font-weight: 600;
+}
+
+.main-project{
+    width: 100%;
+    height: 75%;
+    justify-content: center;
+    color: var(--shade3);
+}
+
+.projects .card{
+    border: 0.4vh solid;
+    border-radius:2vh;
+    margin: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 5px 12px #3d535f;
+    padding: 1.5vh;
+    height: 60v;
+    width: 25vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+}
+    
+.projects{
+    display: flex;
+    overflow-x: auto;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.projects .card img{
+    height: 33.33vh;
+    width: 20vw;
+    margin-top: 6.9px;
+    border-radius: 1.5vh;
+}
+
+.projects .card p{
+    text-align: center;
+    margin: auto;
+    font-size: 1vw;
+}
+
+.projects .card  button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1vw;
+    font-weight: 400;
+    background-color: var(--shade1);
+    color: white;
+    padding: 1vh 2vh;
+    margin: 1ch 2vh;
+    letter-spacing: 1px;
+    border-radius: 10%;
+}
+
+.card button:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
 footer{
     padding-top: 1.5vh;
     text-align: center;
