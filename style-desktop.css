@@ -1,4 +1,4 @@
-/* added font */
+    /* added font */
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;900&display=swap');
 
@@ -269,6 +269,69 @@ h1{
 .card button:hover{
     background-color: greenyellow;
     color: black;
+}
+
+/* Eduaction section */
+
+.education-left{
+    justify-content: left;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.exp-head{
+    font-size: 3vw;
+    width: 100%;
+    padding: 10px 0px 2vw 0px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.exp h2{
+    font-size: 1.8vw;
+    padding: 20px 0px 10px 0px;
+    font-weight: 600;
+}
+
+.exp h3{
+    font-size: 1.30vw;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.exp p{
+    font-size: 1.34vw;
+}
+
+.edu{
+    width: 49%;
+    padding-left: 54px;
+    padding-right: 20px;
+}
+
+.edu-head{
+    font-size: 3vw;
+    width: 100%;
+    padding: 10px 0px 2vw 0px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.edu h2{
+    font-size: 1.8vw;
+    padding: 20px 0px 10px 0px;
+    font-weight: 600;
+}
+
+.edu h3{
+    font-size: 1.30vw;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.edu p{
+    font-size: 1.34vw;
 }
 
 footer{
