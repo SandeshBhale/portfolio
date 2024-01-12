@@ -1,5 +1,17 @@
 // ===============Hide and Show Div=============================
 
+function toggleDiv(divId) {
+    var x = document.getElementById(divId);
+    var allDivs = document.querySelectorAll('.toggle');
+  
+    allDivs.forEach(function(div) {
+      if (div.id === divId) {
+        div.style.display = div.style.display === 'none' ? 'block' : 'none';
+      } else {
+        div.style.display = 'none';
+      }
+    });
+  }
 
 // =================Projects card section=====================
 

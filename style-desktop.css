@@ -159,10 +159,10 @@ h1{
 
 .content-right{
     /* background-color: yellow; */
+    align-items: center;
     width: 50%;
     height: 100%;
-    position: relative;
-    overflow: hidden;
+
 }
 
 .main-bitmoji{
@@ -172,7 +172,7 @@ h1{
     z-index: 2;
 }
 
-.bubble{
+/* .bubble{
     background-color: var(--shade4);
     aspect-ratio: 1;
     border-radius: 100%;
@@ -196,7 +196,7 @@ h1{
     right: 2vw;
     top: 4vw;
     width: 20%;
-}
+} */
 
 /* ==================================PROJECTS section ================================== */
 

@@ -23,11 +23,11 @@
 
             <nav>
                 <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="#">EXPERIENCE</a></li>
-                    <li><a href="#">EDUCATION</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#" onclick="toggleDiv('home')">HOME</a></li>
+                    <li><a href="#" onclick="toggleDiv('projects')">PROJECTS</a></li>
+                    <li><a href="#" onclick="toggleDiv('experience')">EXPERIENCE</a></li>
+                    <li><a href="#" onclick="toggleDiv('education')">EDUCATION</a></li>
+                    <li><a href="#" onclick="toggleDiv('contact')">CONTACT</a></li>
                 </ul>
             </nav>
 
@@ -40,33 +40,33 @@
         </header>
 
         <!-- Home page code -->
+        <div id="home" class="toggle">
+            <div class="content-main">
 
-        <div class="content-main">
-
-            <div class="content-left">
-                <div class="intro">
-                    <p class="line1">Hello,It's Me</p>
-                    <p class="line2">SANDESH BHALE</p>
-                    <h1>I'm <<span class="multiText">Devoloper</span>></h1>
-                    <p class="bio">Aspiring web developer pursuing B.Tech in Computer Engineering. Committed to continuous learning and seeking opportunities to apply my skills in developing intuitive and efficient web applications.</p>
-                    <button>Hire Me</button>
-                    <button>Resume</button>
+                <div class="content-left">
+                    <div class="intro">
+                        <p class="line1">Hello,It's Me</p>
+                        <p class="line2">SANDESH BHALE</p>
+                        <h1>I'm <<span class="multiText">Devoloper</span>></h1>
+                        <p class="bio">Aspiring web developer pursuing B.Tech in Computer Engineering. Committed to continuous learning and seeking opportunities to apply my skills in developing intuitive and efficient web applications.</p>
+                        <button>Hire Me</button>
+                        <button>Resume</button>
+                    </div>
                 </div>
-            </div>
-
+       
 <!-- ========================================================================================================= -->
             
-            <div class="content-right">
-                <img src="imgs/bitmoji.png" alt="main-bitmoji" class="main-bitmoji">
-                <div class="bubble b1"></div>
-                <div class="bubble b2"></div>
-                <div class="bubble b3"></div>
-            </div>
-        </div>        
+                <div class="content-right">
+                    <img src="imgs/bitmoji.png" alt="main-bitmoji" class="main-bitmoji">
+                    <!-- <div class="bubble b1"></div>
+                    <div class="bubble b2"></div>
+                    <div class="bubble b3"></div> -->
+                </div>
+            </div>        
         </div>
     
         <!-- Projects section code -->
-
+        <div id="projects" class="toggle">
         <h1 class="project-head">Projects</h1>
         <div class="main-project">
             <div class="projects" >
@@ -75,9 +75,10 @@
                 </template>
             </div>
         </div>
-    
+        </div>
+        
         <!-- Education section -->
-
+        <div id="education" class="toggle">
         <div class="education">
             <div class="education-left">
                 <h1 class="edu-head">Education</h1>
@@ -97,6 +98,7 @@
             <div class="education-right">
 
             </div>
+        </div>
         </div>
 
     </div>
